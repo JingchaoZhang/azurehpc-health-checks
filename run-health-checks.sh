@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AZ_NHC_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-DOCK_IMG_NAME_NV="mcr.microsoft.com/aznhc/aznhc-nv"
+DOCK_IMG_NAME_NV="ghcr.io/azure/ai-infrastructure-on-azure/aznhc:latest"
 DOCK_IMG_NAME_CPU=$DOCK_IMG_NAME_NV # Default to the NV image
 DOCK_IMG_NAME_AMD="mcr.microsoft.com/aznhc/aznhc-rocm"
 DOCK_CONT_NAME=aznhc
